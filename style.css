@@ -1,0 +1,132 @@
+.custom-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem;
+}
+body{
+    height: 100vh;
+    
+}
+header{
+    box-shadow: 1px 0px 15px gainsboro;
+}
+.heading-header{
+    font-size: 1.2rem;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.details-active{
+    color: white;
+}
+.card-img-top{
+  transition: transform .2s; /* Animation */
+}
+.card-img-top:hover{
+    transform: scale(1.5);
+}
+.bg-body-dark-active{
+    background-color: hsl(207, 26%, 17%);
+
+
+
+}
+.card-dark-active{
+    background-color: hsl(209, 23%, 22%);
+    border: none;
+    color: white;
+}
+
+.input-dark-active{
+    background-color: hsl(209, 23%, 22%);
+    color: white;
+    border: none;
+}
+.input-dark-active[type=text]:focus{
+    outline: none;
+    color: white;
+    background-color: hsl(209, 23%, 22%);
+}
+.toggle-theme{
+    cursor: pointer;
+}
+.main-col{
+    margin-top: 1rem;
+}
+.Overflow{
+    overflow: hidden;
+    cursor: pointer;
+
+}
+.card{
+    width: 18rem;
+    margin: auto;
+    margin-top: 1rem;
+}
+.card-title{
+    font-size: 1.5rem;
+}
+.dark-theme{
+    font-weight: bold;
+}
+.details h1{
+    margin-bottom: 2rem;
+}
+.details h6{
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+    color: rgb(107 113 117);
+    font-size: 1rem;
+}
+.details h1{
+    color: rgb(107 113 117);
+}
+.bord{
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+.b{
+    box-shadow: 1px 1px 4px 2px gainsboro;
+    padding: 0.2rem 1rem .2rem 1rem;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+span{
+    color: gray!important;
+}
+.population{
+    border-bottom: 1px solid;
+
+}
+
+@media (min-width:768px){
+    .main-row{
+        justify-content: space-between;
+        align-items: center;
+    }
+    .cap{
+        margin-bottom: 3rem!important;
+    }
+    .details h6{
+        font-size: 1.2rem;
+    }
+    .b{
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width:992px){
+    .card{
+        width:14rem ;
+    }
+}
+
+@media (min-width:1200px){
+    .card{
+        width: 17rem;
+    }
+}
